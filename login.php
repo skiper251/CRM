@@ -1,5 +1,5 @@
 <?php
-include "db_conn.php";
+include "C:\ospanel\domains\MyApp\config\db_conn.php";
 session_start();
 if (isset($_POST['uname']) && isset($_POST['password'])) {
     function validate($data){

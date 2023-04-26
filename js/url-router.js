@@ -33,7 +33,7 @@ const urlRoutes = {
 		description: "This is the about page",
 	},
 	"/storage": {
-		template: "/templates/storage.html",
+		template: "/templates/storage.php",
 		title: "Contact Us | " + urlPageTitle,
 		description: "This is the contact page",
 	},
