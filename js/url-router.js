@@ -18,12 +18,12 @@ const urlRoutes = {
 		description: "Page not found",
 	},
 	"/index.html": {
-		template: "/templates/main.html",
+		template: "/templates/main.php",
 		title: "Home | " + urlPageTitle,
 		description: "This is the home page",
 	},
 	"/": {
-		template: "/templates/main.html",
+		template: "/templates/main.php",
 		title: "Home | " + urlPageTitle,
 		description: "This is the home page",
 	},
@@ -53,7 +53,7 @@ const urlLocationHandler = async () => {
 	const location = window.location.pathname; // get the url path
 	// if the path length is 0, set it to primary page route
 	if (location.length === 0) {
-		location = "/templates/main.html";
+		location = "/templates/main.php";
 	}
 	// get the route object from the urlRoutes object
 	const route = urlRoutes[location] || urlRoutes["404"];
