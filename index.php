@@ -5,6 +5,9 @@
     <link rel="stylesheet" type="text/css" href="css/login_styles.css"
 </head>
 <body>
+<?php
+    echo ("1");
+    ?>
     <form action="login.php" method="post">
         <h2>LOGIN</h2>
         <?php if (isset($_GET['error'])) { ?>

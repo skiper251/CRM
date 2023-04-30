@@ -75,6 +75,6 @@ include 'C:\ospanel\domains\MyApp\config\db_conn.php';
         <textarea name="count"></textarea>
         <p>Price</p>
         <input type="number" name="price"> <br> <br>
-        <button type="submit">Add new product
+        <button type="submit" name="submit">Add new product
     </form>
 </body>
